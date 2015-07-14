@@ -1,14 +1,20 @@
 ---
 layout: page
 title: Luke Maxwell.
-tagline: Code. 
+tagline: Analyst. Coder. Creator. Problem Solver
 ---
 {% include JB/setup %}
 ![linkedin]({{ ASSET_PATH }}images/linkedin48.png)
 ![twitter]({{ ASSET_PATH }}images/twitter64.png)
 ![email]({{ ASSET_PATH }}images/email64.png)
- 
-## Posts
+
+## About me
+Lorum Ipsum
+## Companies I've worked for
+Lorum Ipsum
+
+
+## Projects
 
 This blog contains sample posts which help stage pages and blog data.
 When you don't need the samples anymore just delete the `_posts/core-samples` folder.
@@ -22,17 +28,5 @@ Here's a sample "posts list".
     <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
-
-## Repositories 
-hello. 
-
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
-
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
 
 
