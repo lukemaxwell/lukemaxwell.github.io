@@ -75,3 +75,7 @@
 .page-header {
   border-bottom: 3px solid #eeeeee;
 }
+.section-header {
+  border-bottom: 3px solid #eeeeee;
+  font-size: 30px;
+}
