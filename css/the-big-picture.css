@@ -11,9 +11,33 @@ body {
 }
 
 .full {
-  background: url(http://placehold.it/1920x1080) no-repeat center center fixed; 
+  /*background: url(http://placehold.it/1920x1080) no-repeat center center fixed; */
+  background: url(/images/wall.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+@font-face {
+  font-family: MyGraffiti;
+  src: local("TakeWarning"),
+       url(/fonts/take-warning.otf);
+  font-weight: bold;
+}
+.title-graffiti {
+  font-family: MyGraffiti;
+  color: #FF3399;
+  font-size: 100pt;
+}
+
+.link-graffiti {
+  font-family: MyGraffiti;
+  font-size: 84pt;
+  color: #000000;
+}
+
+.navbar-graffiti {
+  font-family: MyGraffiti;
+  color: #FF3399 !important;
+  font-size: 28pt;
 }
