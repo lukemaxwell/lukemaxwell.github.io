@@ -54,13 +54,7 @@ body {
   color: white;
   background: rgba(0, 0, 0, .7);
   padding: 10px;
-}
-
-.tbox a {
-/*
-  background-color: #ff3399;
-  padding: 2px;
-*/
+  margin: 10px;
 }
 
 
@@ -80,8 +74,3 @@ body {
   transform: rotate(-5deg);
 }
 
-a {
-/*  color: #420580;
-  color: #ff3399;
-*/
-}
