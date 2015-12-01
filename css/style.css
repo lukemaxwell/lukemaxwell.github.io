@@ -47,3 +47,41 @@ body {
   color: #FF3399 !important;
   font-size: 28pt;
 }
+
+.tbox {
+  font-size: large;
+  font-weight: 500;
+  color: white;
+  background: rgba(0, 0, 0, .7);
+  padding: 10px;
+}
+
+.tbox a {
+/*
+  background-color: #ff3399;
+  padding: 2px;
+*/
+}
+
+
+.slant-right {
+  -webkit-transform: rotate(5deg);
+  -moz-transform: rotate(5deg);
+  -o-transform: rotate(5deg);
+  -ms-transform: rotate(5deg);
+  transform: rotate(5deg);
+}
+
+.slant-left {
+  -webkit-transform: rotate(-5deg);
+  -moz-transform: rotate(-5deg);
+  -o-transform: rotate(-5deg);
+  -ms-transform: rotate(-5deg);
+  transform: rotate(-5deg);
+}
+
+a {
+/*  color: #420580;
+  color: #ff3399;
+*/
+}
